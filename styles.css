@@ -22,7 +22,7 @@ a {
   justify-content: center;
   align-items: center;
   color: black;
-  transition: background-color 1s, padding 1s, color 1s;
+  transition: background-color 0.5s, padding 0.5s, color 0.5s;
 }
 
 .sub_container {
