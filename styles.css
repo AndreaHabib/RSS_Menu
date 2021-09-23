@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 100vh;
+  height: 75vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
@@ -8,11 +8,33 @@
   border-top: 10px solid rgb(55, 128, 21);
 }
 
+footer a {
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footer--container {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  padding: 20px;
+  border-top: 10px solid rgb(55, 128, 21);
+  background-color: rgb(78, 175, 33);
+  height: 25vh;
+}
+
 .title {
   text-align: center;
 }
 
-a {
+section a {
   text-decoration: none;
   padding: 50px;
   border-radius: 50%;
